@@ -1,13 +1,13 @@
 import request from 'request-promise-native';
 import { getTK } from './token';
 
-interface TranslateOption {
+export interface TranslateOption {
     from?: string;
     to?: string;
     domain?: string;
 }
 
-interface TranslateItem {
+export interface TranslateItem {
     type: string;
     value: string;
     exp: string;

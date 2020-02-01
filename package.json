@@ -1,6 +1,6 @@
 {
     "name": "google-translate-unlimited-api",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "一个免费无限制的 google 翻译API，且支持返回多个可选翻译项（翻译项带词性与解释，并按匹配度排序）",
     "main": "./dist/index.js",
     "types": "./dist/types/index.d.ts",
