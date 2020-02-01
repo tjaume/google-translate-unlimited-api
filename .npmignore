@@ -1,0 +1,12 @@
+!/dist/**/*
+!/lib/**/*
+!/types/**/*
+!/README.md
+!/package*.json
+src/**/*
+test
+tsconfig.json
+tsconfig.build.json
+yarn.lock
+.prettierrc
+.vscode

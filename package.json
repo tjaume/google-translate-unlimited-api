@@ -1,0 +1,36 @@
+{
+    "name": "google-translate-unlimited-api",
+    "version": "0.0.2",
+    "description": "一个免费无限制的 google 翻译API，且支持返回多个可选翻译项（翻译项带词性与解释，并按匹配度排序）",
+    "main": "./dist/index.js",
+    "types": "./dist/types/index.d.ts",
+    "typings": "./dist/types/index.d.ts",
+    "repository": "git@github.com:tjaume/google-translate-unlimited-api.git",
+    "author": {
+        "name": "tjaume",
+        "email": "minggis@foxmail.com"
+    },
+    "keywords": [
+        "google",
+        "translate",
+        "multiple"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "go": "yarn ts-node",
+        "test": "yarn go ./test/index.test.ts",
+        "build": "tsc",
+        "prepublish": "npm run build"
+    },
+    "dependencies": {
+        "request": "^2.88.0",
+        "request-promise-native": "^1.0.8"
+    },
+    "devDependencies": {
+        "@types/node": "^13.5.3",
+        "@types/request": "^2.48.4",
+        "@types/request-promise-native": "^1.0.17",
+        "ts-node": "^8.6.2",
+        "typescript": "^3.7.5"
+    }
+}
